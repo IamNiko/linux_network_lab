@@ -1,0 +1,7 @@
+# .gitignore
+reports/
+captures/
+*.pcap
+*.log
+.env
+
