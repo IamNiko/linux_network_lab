@@ -5,3 +5,6 @@ captures/
 *.log
 .env
 
+# Estado local del wtcher
+.state/
+EOF
