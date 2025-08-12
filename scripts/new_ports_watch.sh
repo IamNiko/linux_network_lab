@@ -21,7 +21,7 @@ NOW_FILE="$STATE_DIR/listen_now.txt"
 
 # --- Config captura ---
 CAPTURE_ON_ALERT=true         # ponlo en false si no quieres capturar
-CAPTURE_SECONDS=5            # duración por puerto
+CAPTURE_SECONDS=15            # duración por puerto
 CAPTURE_IFACE="any"           # interfaz (puedes poner eth0/wlan0)
 ALERT_FILE="$REPORTS_DIR/alerts_$(date +%F).log"   # 1 archivo por día
 

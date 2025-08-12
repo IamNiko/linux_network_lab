@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Mini Lab HTTP</title>
+	</head>
+	<body>
+		<h1> Hola, este es la pagina para controlar el trafico del servidor</h1>
+		<p> Esta es una pagina para generar trafico en el laboratorio y poder ver paquetes con wireshark.</p>
+
+		<form method="post" action="/cgi-bin/echo.py">
+			<p><label>Nombre: <input name="name" /></label></p>
+			<p><label>Mensaje: <input name="msg" /></label></p>
+			<p><button type="submit">Enviar</button></p>
+		</form>
+
+
+		<p><a href="/cgi-bin/echo.py?ping=1">Probar GET rapido (ping)</a></p>
+
+	</body>
+</html>
